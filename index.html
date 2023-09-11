@@ -85,11 +85,11 @@
           </ul>
         </div>
         <div class="navbar-end">
-          <a class="btn">Free Consultation</a>
+          <a class="btn text-white bg-[#b78c5b]">Free Consultation</a>
         </div>
       </div>
     </header>
-    <section class="px-12">
+    <section class="px-8">
       <div
         class="hero min-h-screen bg-cover bg-center"
         style="background-image: url(./images/banner.png)"
@@ -112,7 +112,9 @@
                   placeholder="Legal Info"
                   class="input input-bordered w-full"
                 />
-                <button class="ml-5 btn btn-primary absolute top-0 -right-24">
+                <button
+                  class="ml-5 btn text-white bg-[#b78c5b] absolute top-0 -right-24"
+                >
                   Search
                 </button>
               </div>
@@ -221,10 +223,79 @@
           </p>
         </div>
         <!-- slider section  -->
-
+        <div class="carousel w-full">
+          <div id="slide1" class="carousel-item relative w-full h-1/2">
+            <div class="card image-full">
+              <figure>
+                <img src="/images/banner.png" alt="Shoes" class="" />
+              </figure>
+              <div class="flex justify-center flex-col">
+                <div class="self-center">
+                  <img
+                    class="rounded-full border-white border-4"
+                    src="./images/email.png"
+                    alt=""
+                  />
+                </div>
+                <div class="text-center mx-48">
+                  <h3 class="text-2xl font-bold text-white">Awlad Hossain</h3>
+                  <p>UIX Designer</p>
+                  <p>
+                    Contrary to popular belief, Lorem Ipsum is not simply random
+                    text. It has roots in a piece of classical Latin literature
+                    from 45 BC, making it over 2000 years old. Richard
+                    McClintock, a Latin professor at Hampden-Sydney College in
+                    Virginia, looked up one of the more obscure Latin words,
+                    consectetur.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide4" class="btn btn-circle">❮</a>
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide2" class="carousel-item relative w-full h-1/2">
+            <img src="/images/banner.png" class="w-full h-1/2" />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide1" class="btn btn-circle">❮</a>
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div
+            id="slide3"
+            class="carousel-item relative w-full bg-cover bg-center bg-dark opacity-25"
+            style="background-image: url(./images/banner.png)"
+          >
+            <!-- <img src="/images/banner.png" class="w-full h-1/2" /> -->
+            <div class="">
+              <img src="./images/email.png" alt="" />
+              <h2>Hello</h2>
+            </div>
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide2" class="btn btn-circle">❮</a>
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+        </div>
         <!-- slider section  -->
       </section>
       <!-- FAQ Section -->
+      <div class="text-center py-4">
+        <h2 class="text-3xl">Frequently Asked Any Questions</h2>
+        <p class="px-48 py-5">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour.
+        </p>
+      </div>
       <section
         class="flex justify-around mb-20 lg:gap-4 lg:flex-row md:flex-col h-96"
       >
@@ -469,7 +540,7 @@
               class="input input-bordered w-full pr-16"
             />
             <button
-              class="btn btn-primary absolute top-0 right-0 rounded-l-none"
+              class="btn text-white bg-[#b78c5b] absolute top-0 right-0 rounded-l-none"
             >
               Subscribe
             </button>
@@ -479,3 +550,13 @@
     </footer>
   </body>
 </html>
+<!-- 
+  <div class="card-body">
+        <h2 class="card-title">Shoes!</h2>
+        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <p class="justify-center">Hello</p>
+        <div class="card-actions">
+          <button class="btn btn-primary">Buy Now</button> 
+        </div>
+      </div>
+ -->
